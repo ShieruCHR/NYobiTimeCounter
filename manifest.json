@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "N Yobi Time Counter",
+    "version": "1.2",
+    "description": "N予備校の授業ページに動画の合計時間を表示します。",
+    "content_scripts": [
+        {
+            "matches": ["https://www.nnn.ed.nico/courses/*/chapters/*"],
+            "js": ["js/main.js"]
+        }
+    ]
+}
